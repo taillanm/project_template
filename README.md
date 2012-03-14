@@ -2,8 +2,8 @@
 (text between brackets to be removed)
 
 > * Group Name: (be creative!)
-> * Group participants names: (alphabetically sorted by last name)
-> * Project Title: (can be changed)
+> * Group participants names: Kevin Najjar, Felix Renaut, Maximilian Taillandier
+> * Project Title: Simulation of Investment Optimization in Venture Capital Industry using Kelly’s Criterion 
 
 ## General Introduction
 
