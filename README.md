@@ -18,8 +18,14 @@
 
 ## Fundamental Questions
 
-(At the end of the project you want to find the answer to these questions)
-(Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
+The main challenge for a company that intends to lend money (for example through venture capital (VC)) is to optimize
+the investment in order to realize a big return.
+Our fundamental question here is therefore: How much return will the investor realize on his investment using our simulation?
+Given some (realistic) initial conditions, how is our simulation going to react after adding an additional "noise information"
+of 5 percent for example (in our case, a misinformation that includes a variation of 5% either positively or negatively of the
+needer's money amount)?
+The last point that arises from the last idea is the importance of this "noise information": we will try to simulate the moment
+at which the noise becomes either to big and induces a big loss for the investor or the opposite. 
 
 
 ## Expected Results
