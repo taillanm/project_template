@@ -1,43 +1,44 @@
 # MATLAB FS12 – Research Plan (Template)
 (text between brackets to be removed)
 
-> * Group Name: (be creative!)
+> * Group Name: V For Venture Capital 
 > * Group participants names: Kevin Najjar, Felix Renaut, Maximilian Taillandier
-> * Project Title: Simulation of Investment Optimization in Venture Capital Industry using Kelly’s Criterion 
+> * Project Title: Simulation & Comparison of Investment Strategies in Venture Capital Industry 
 
 ## General Introduction
 
-(States your motivation clearly: why is it important / interesting to solve this problem?)
-(Add real-world examples, if any)
-(Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
+Start-ups are a great way of creating new jobs and reshaping a land’s economy. Only at ETH Zürich,
+237 start-ups have been founded since 1996 ! The problem is that these start-ups often need a starting capital,
+which can’t always be provided by a university, as it is the case here. Another option therefore is the use of
+venture capital investors, who are specialized in financing start-ups. The aim of those investors is to choose
+the right companies, i.e. the ones that will succeed. 
+For this, they are using different methods based on their estimation of the success probability of a start-up. 
 
 ## The Model
 
-(Define dependent and independent variables you want to study. Say how you want to measure them.) (Why is your model a good abtraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?)
+The aim is to model different ways of investing in start-ups as it is done in venture capital investments. We would therefore implement a start-up randomizer which creates start-ups with a certain amount of money needed and a certain probability of fulfilling its aims (which would mean a gain of money for the investor). Different venture capital investors would invest on these start-ups with their own methods : one would base its choices only on experience of previous investments, others  using different fractions of the criterion described by Kelly in his article.
+In a second step, we could add noise representing the judgment errors of the investors about the chances of a certain start-up’s success, and see how each model reacts to these errors, which model is safer, and if you can obtain similar results only with your experience than you would using the Kelly criterion.
 
 
 ## Fundamental Questions
 
-The main challenge for a company that intends to lend money (for example through venture capital (VC)) is to optimize the investment
-in order to realize a big return. 
-Our fundamental question here is therefore: How much return will the investor realize on his investment using our simulation?
-Given some (realistic) initial conditions, how is our simulation going to react after adding an additional "noise information" 
-of 5 percent for example (in our case, a misinformation that includes a variation of 5% either positively or negatively of 
-the needer's money amount)? 
-The last point that arises from the last idea is the importance of this "noise information": we will try to simulate 
-the moment at which the noise becomes either to big and induces a big loss for the investor or the opposite.
+The goal of our simulation is to differentiate the ways for a venture capital investor to make money. Therefore our fundamental questions would be, which of the two models described previously leads to better results, and if there is none (or slightly similar), it is of any interest for the investor to couple the two methods in order to optimize its earnings? Given some (realistic) initial conditions described in the upper paragraph, how is our simulation going to react after adding an additional "noise information" (in our case, a misinformation that includes a variation, either positively or negatively of the needer’s success probability)? The last point that arises from the last idea is the importance of this "noise information": we will try to simulate the moment at which the noise becomes either to big and induces a big loss for the investor or the opposite.
 
 
 ## Expected Results
 
-(What are the answers to the above questions that you expect to find before starting your research?)
+-  if our start-up randomizer has some tangible initial parameters, the model using the Kelly criterion should lead us (for a time t->∞) to a maximum benefit for the investor
+-	Compare/judge our results and see which model is better/safer 
 
 
 ## References 
 
-(Add the bibliographic references you intend to use)
-(Explain possible extension to the above models)
-(Code / Projects Reports of the previous year)
+- Medium Term Simulations of The Full Kelly and Fractional Kelly Investment Strategies, Leonard C. MacLean, Edward O. Thorp, Yonggan Zhao and William T. Ziemba
+- A New Interpretation of  Information Rate, by J.L. Kelly  
+- The Kelly Criterion in Blackjack, Sports Betting, and the Stock Market, by Edward O. Thorp
+- Calculating A Start-Up’s Odds Of Success, by Scott Austin in WSJ’s Venture Capital Blog
+
+
 
 
 ## Research Methods
